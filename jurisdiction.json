@@ -1,0 +1,9 @@
+{
+  "path": "ps",
+  "code": "PS",
+  "name": "Palestine",
+  "level": "country",
+  "repo": "https://github.com/lexifina/palestine-law",
+  "build": "built: catalogue of Official Gazette texts (metadata only, 3,367 entries, 1994-2026)",
+  "register_date": "2026-10-30"
+}

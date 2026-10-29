@@ -1,0 +1,1651 @@
+{
+ "country": "PS",
+ "acts": [
+  {
+   "slug": "catalogue",
+   "short": "CAT",
+   "title": "Catalogue of texts published in Al-Waqa'i' al-Filastiniyya (metadata only)",
+   "url": "http://muqtafi.birzeit.edu/pg/",
+   "versions": [
+    {
+     "from": "1994-11-20",
+     "units": 22,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-01-08",
+     "units": 28,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-02-20",
+     "units": 37,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-05-06",
+     "units": 49,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-06-05",
+     "units": 53,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-08-29",
+     "units": 60,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-10-25",
+     "units": 63,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-12-11",
+     "units": 64,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1995-12-31",
+     "units": 75,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1996-02-11",
+     "units": 84,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1996-04-23",
+     "units": 90,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1996-07-22",
+     "units": 95,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1996-08-27",
+     "units": 96,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1996-11-28",
+     "units": 103,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1997-01-30",
+     "units": 109,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1997-04-30",
+     "units": 112,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1997-08-04",
+     "units": 116,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1997-10-15",
+     "units": 129,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1997-11-29",
+     "units": 131,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-01-31",
+     "units": 138,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-04-26",
+     "units": 142,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-06-08",
+     "units": 153,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-07-01",
+     "units": 159,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-09-24",
+     "units": 166,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-11-26",
+     "units": 173,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1998-12-08",
+     "units": 178,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1999-03-13",
+     "units": 194,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1999-07-17",
+     "units": 201,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1999-10-10",
+     "units": 212,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "1999-12-13",
+     "units": 229,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2000-02-29",
+     "units": 244,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2000-06-30",
+     "units": 255,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2000-09-30",
+     "units": 264,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2000-10-20",
+     "units": 268,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2001-03-19",
+     "units": 277,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2001-05-31",
+     "units": 286,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2001-09-05",
+     "units": 290,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2001-11-25",
+     "units": 300,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2002-05-18",
+     "units": 332,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2002-06-06",
+     "units": 333,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2002-06-29",
+     "units": 343,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2002-07-07",
+     "units": 344,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2002-09-05",
+     "units": 353,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2003-03-19",
+     "units": 354,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2003-03-31",
+     "units": 366,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2003-05-24",
+     "units": 378,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2003-08-16",
+     "units": 389,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2003-10-30",
+     "units": 396,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2004-01-29",
+     "units": 405,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2004-06-17",
+     "units": 446,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2004-08-29",
+     "units": 474,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2004-12-05",
+     "units": 479,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-01-18",
+     "units": 544,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-02-28",
+     "units": 577,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-04-23",
+     "units": 609,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-06-27",
+     "units": 648,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-06-28",
+     "units": 649,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-08-18",
+     "units": 652,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-09-08",
+     "units": 689,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-09-27",
+     "units": 692,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2005-11-09",
+     "units": 698,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-02-14",
+     "units": 703,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-03-18",
+     "units": 751,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-03-25",
+     "units": 758,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-04-27",
+     "units": 828,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-05-31",
+     "units": 876,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-06-14",
+     "units": 931,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-07-22",
+     "units": 939,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2006-10-19",
+     "units": 945,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-03-07",
+     "units": 1023,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-04-27",
+     "units": 1056,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-05-31",
+     "units": 1064,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-08-13",
+     "units": 1088,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-09-09",
+     "units": 1089,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2007-09-13",
+     "units": 1152,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2008-06-09",
+     "units": 1173,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2008-06-15",
+     "units": 1191,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2008-06-20",
+     "units": 1204,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2008-10-09",
+     "units": 1261,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2008-12-09",
+     "units": 1275,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-02-09",
+     "units": 1300,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-04-27",
+     "units": 1321,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-05-09",
+     "units": 1333,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-08-22",
+     "units": 1352,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-11-01",
+     "units": 1374,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2009-12-27",
+     "units": 1391,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2010-05-06",
+     "units": 1431,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2010-06-09",
+     "units": 1461,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2010-06-26",
+     "units": 1462,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2010-11-27",
+     "units": 1463,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2010-12-15",
+     "units": 1510,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2011-01-01",
+     "units": 1532,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2011-03-30",
+     "units": 1561,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2011-10-10",
+     "units": 1579,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2011-10-24",
+     "units": 1580,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2011-12-25",
+     "units": 1605,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-01-03",
+     "units": 1607,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-01-25",
+     "units": 1628,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-02-25",
+     "units": 1632,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-03-20",
+     "units": 1655,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-06-10",
+     "units": 1674,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-10-07",
+     "units": 1697,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-12-09",
+     "units": 1698,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2012-12-31",
+     "units": 1743,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2013-02-27",
+     "units": 1766,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2013-06-04",
+     "units": 1785,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2013-08-20",
+     "units": 1813,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2013-10-22",
+     "units": 1832,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2013-12-08",
+     "units": 1844,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-01-05",
+     "units": 1859,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-02-27",
+     "units": 1865,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-04-10",
+     "units": 1871,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-05-28",
+     "units": 1883,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-07-15",
+     "units": 1910,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-10-29",
+     "units": 1960,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2014-12-30",
+     "units": 1968,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-03-30",
+     "units": 1979,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-04-29",
+     "units": 1994,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-07-21",
+     "units": 2003,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-08-31",
+     "units": 2016,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-10-11",
+     "units": 2030,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-11-11",
+     "units": 2031,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-12-27",
+     "units": 2040,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2015-12-30",
+     "units": 2042,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-01-24",
+     "units": 2054,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-02-28",
+     "units": 2064,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-03-20",
+     "units": 2066,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-03-29",
+     "units": 2071,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-04-26",
+     "units": 2081,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-05-31",
+     "units": 2088,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-06-30",
+     "units": 2095,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-07-31",
+     "units": 2102,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-08-25",
+     "units": 2127,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-09-29",
+     "units": 2139,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-10-20",
+     "units": 2142,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-11-08",
+     "units": 2155,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2016-12-04",
+     "units": 2157,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-01-14",
+     "units": 2173,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-02-05",
+     "units": 2190,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-03-05",
+     "units": 2199,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-04-11",
+     "units": 2203,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-04-25",
+     "units": 2212,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-05-29",
+     "units": 2233,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-07-09",
+     "units": 2235,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-07-18",
+     "units": 2241,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-08-21",
+     "units": 2246,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-09-25",
+     "units": 2252,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-10-15",
+     "units": 2257,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-11-29",
+     "units": 2263,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2017-12-31",
+     "units": 2265,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-01-08",
+     "units": 2270,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-02-13",
+     "units": 2276,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-03-25",
+     "units": 2286,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-04-22",
+     "units": 2293,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-05-03",
+     "units": 2296,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-05-16",
+     "units": 2303,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-06-25",
+     "units": 2312,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-07-22",
+     "units": 2313,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-07-26",
+     "units": 2323,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-07-31",
+     "units": 2332,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-08-30",
+     "units": 2338,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-09-23",
+     "units": 2347,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-10-23",
+     "units": 2362,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-11-28",
+     "units": 2378,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-12-23",
+     "units": 2381,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2018-12-27",
+     "units": 2393,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-01-27",
+     "units": 2401,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-02-19",
+     "units": 2412,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-03-26",
+     "units": 2423,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-04-16",
+     "units": 2430,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-05-15",
+     "units": 2436,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-06-16",
+     "units": 2450,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-07-10",
+     "units": 2458,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-07-16",
+     "units": 2460,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-08-19",
+     "units": 2478,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-09-18",
+     "units": 2491,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-10-31",
+     "units": 2509,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-11-28",
+     "units": 2522,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2019-12-26",
+     "units": 2532,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-01-30",
+     "units": 2537,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-02-27",
+     "units": 2545,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-03-19",
+     "units": 2553,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-03-25",
+     "units": 2558,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-04-20",
+     "units": 2572,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-05-13",
+     "units": 2586,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-06-25",
+     "units": 2602,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-07-22",
+     "units": 2610,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-08-19",
+     "units": 2618,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-09-24",
+     "units": 2630,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-10-20",
+     "units": 2641,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-11-25",
+     "units": 2657,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2020-12-24",
+     "units": 2673,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-01-11",
+     "units": 2676,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-01-13",
+     "units": 2677,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-01-31",
+     "units": 2689,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-02-25",
+     "units": 2704,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-03-02",
+     "units": 2706,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-03-18",
+     "units": 2721,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-04-26",
+     "units": 2741,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-05-26",
+     "units": 2754,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-06-24",
+     "units": 2765,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-07-27",
+     "units": 2771,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-08-25",
+     "units": 2783,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-09-22",
+     "units": 2799,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-10-27",
+     "units": 2818,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-11-22",
+     "units": 2829,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-12-23",
+     "units": 2838,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2021-12-30",
+     "units": 2839,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-01-23",
+     "units": 2848,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-02-24",
+     "units": 2861,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-03-06",
+     "units": 2868,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-03-29",
+     "units": 2884,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-04-12",
+     "units": 2893,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-05-25",
+     "units": 2911,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-06-30",
+     "units": 2923,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-07-24",
+     "units": 2925,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-08-14",
+     "units": 2942,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-09-25",
+     "units": 2960,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-10-25",
+     "units": 2969,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-11-23",
+     "units": 2978,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2022-12-26",
+     "units": 2985,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-01-25",
+     "units": 2997,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-02-26",
+     "units": 3003,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-03-28",
+     "units": 3015,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-04-13",
+     "units": 3019,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-04-30",
+     "units": 3027,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-05-25",
+     "units": 3043,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-06-25",
+     "units": 3052,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-07-26",
+     "units": 3064,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-08-28",
+     "units": 3080,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-09-25",
+     "units": 3100,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-10-24",
+     "units": 3111,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-11-26",
+     "units": 3117,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2023-12-27",
+     "units": 3121,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-01-28",
+     "units": 3129,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-02-26",
+     "units": 3137,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-03-24",
+     "units": 3146,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-04-28",
+     "units": 3153,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-05-28",
+     "units": 3157,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-06-26",
+     "units": 3160,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-07-22",
+     "units": 3162,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-08-26",
+     "units": 3170,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-09-25",
+     "units": 3177,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-10-24",
+     "units": 3186,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-11-25",
+     "units": 3194,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-11-28",
+     "units": 3195,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-12-26",
+     "units": 3202,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2024-12-31",
+     "units": 3206,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-02-10",
+     "units": 3220,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-02-25",
+     "units": 3228,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-03-25",
+     "units": 3235,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-04-27",
+     "units": 3241,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-05-27",
+     "units": 3247,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-06-29",
+     "units": 3252,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-07-27",
+     "units": 3266,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-08-25",
+     "units": 3269,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-09-28",
+     "units": 3277,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-10-27",
+     "units": 3290,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-11-20",
+     "units": 3291,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-11-27",
+     "units": 3301,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2025-12-29",
+     "units": 3310,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-01-15",
+     "units": 3314,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-01-28",
+     "units": 3319,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-02-03",
+     "units": 3320,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-02-25",
+     "units": 3328,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-03-26",
+     "units": 3331,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-04-26",
+     "units": 3338,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-05-25",
+     "units": 3342,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-06-18",
+     "units": 3344,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-06-25",
+     "units": 3350,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-07-28",
+     "units": 3357,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-08-11",
+     "units": 3360,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    },
+    {
+     "from": "2026-08-30",
+     "units": 3367,
+     "source_url": "http://muqtafi.birzeit.edu/pg/",
+     "sha256": null
+    }
+   ]
+  }
+ ]
+}

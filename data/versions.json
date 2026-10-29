@@ -1,0 +1,31 @@
+{
+ "country": "PS",
+ "acts": [
+  {
+   "slug": "basic-law",
+   "short": "BL",
+   "title": "القانون الأساسي المعدل لسنة 2003م وتعديلاته (Amended Basic Law)",
+   "url": "http://muqtafi.birzeit.edu/pg/getleg.asp?id=14138",
+   "versions": [
+    {
+     "from": "2002-07-07",
+     "units": 120,
+     "source_url": "http://muqtafi.birzeit.edu/pg/getleg.asp?id=14094",
+     "sha256": "0ce2da5858d035144ef77aa1ade44f197d331b818bcd21c4978a5cc46c65a84a"
+    },
+    {
+     "from": "2003-03-19",
+     "units": 131,
+     "source_url": "http://muqtafi.birzeit.edu/pg/getleg.asp?id=14138",
+     "sha256": "885aec67b17952c83ec0dcf8caa31e7da548fd47a2ab86ddb403bc39ea456997"
+    },
+    {
+     "from": "2005-08-18",
+     "units": 132,
+     "source_url": "http://muqtafi.birzeit.edu/pg/getleg.asp?id=14860",
+     "sha256": "0b26eb372454b73b4cdf17be34189b7484d8e00d9878a197e3a4c9953e89d5be"
+    }
+   ]
+  }
+ ]
+}

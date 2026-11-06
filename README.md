@@ -1,5 +1,7 @@
 # Palestine: law history in git (metadata only)
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Palestine's national law, which global-law reads at `palestine/national/acts/`.
+
 The law of Palestine (PS) as a git history. **This repository holds no law text: it is a catalogue of facts about each text published in the Official Gazette, Al-Waqa'i' al-Filastiniyya.** It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ps/`. Language: Arabic (right-to-left).
 
 | Folder | Text | Versions | History |

@@ -24,7 +24,8 @@ Titles are in Arabic, as Al-Muqtafi's index prints them; the field names are in 
 
 - **[Ask Claude about Palestinian law](https://global-law.lexifina.com/v1/try_claude?country=palestine)**: opens Claude with a first question ready.
 - **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=palestine)**: the same question in ChatGPT.
-- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=%D8%A7%D9%84%D8%B9%D9%85%D9%84&jurisdictions=palestine)**: a search of the Palestinian catalogue for "العمل" (labour), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Search the Palestinian catalogue on our site](https://lexifina.com/law?country=palestine&q=%D8%A7%D9%84%D8%B9%D9%85%D9%84)**: a search for "العمل" (labour) in its catalogue of titles, no account needed.
+- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%D8%A7%D9%84%D8%B9%D9%85%D9%84&jurisdiction=palestine)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
 
 Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Arabic or in English.
 

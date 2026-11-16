@@ -59,6 +59,7 @@ No commit is credited to a law: each is credited to the index, as `Catalogue ent
 - `tools/catalogue.py` writes the corpus from Al-Muqtafi's issue index, and `tools/build.py` writes the history from it; the same corpus, whose hash is in `data/corpus.sha256`, gives the same commit hashes.
 - `tools/check_repo.py` reads every version back from git on its day and on the day before and compares it with the corpus; it also checks that every commit's trailers parse, that `main` has no merge commits and that no commit is dated in the future.
 - [`REPRODUCE.md`](REPRODUCE.md) records that the checks were not yet run for this build and that no second build has been compared.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -79,6 +80,10 @@ No commit is credited to a law: each is credited to the index, as `Catalogue ent
 See [`LICENSE`](LICENSE). Only facts are copied: no text of any law and no descriptive text of the source. Birzeit University does not endorse this repository. Lexifina's history, commit messages and tools are CC0 1.0.
 
 No AI model wrote or edited any catalogue entry; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 

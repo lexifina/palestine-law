@@ -1,35 +1,41 @@
-# Palestine: law history in git
+# فلسطين: تاريخ القانون في git
 
+**العربية** · [English](README.en.md)
 
-The law of Palestine as a git history, for now as a catalogue: one file per text listed in the Official Gazette, Al-Waqa'i' al-Filastiniyya, and one commit per Gazette day, dated that day. **It holds no law text**: each file gives a text's title, type, number and year, the Gazette issue that lists it and that issue's date, and the text's record at Al-Muqtafi. `git log` lists what each Gazette day published; picking a date gives the catalogue as it stood that day.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/ar/effort-dark.svg">
+<img alt="القانون الفلسطيني في هذا المستودع: ما يحتويه، والتعديلات حسب سنة نفاذها، والاكتمال مقارنةً بالمصادر الرسمية، وصحة المحتوى" src="data/ar/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Palestine's national law, which global-law reads at `palestine/national/acts/`.
+القانون الفلسطيني في صورة سجل git، وهو في الوقت الحاضر فهرس: ملف واحد لكل نص مدرج في الجريدة الرسمية، الوقائع الفلسطينية، ولكل يوم صدرت فيه الجريدة commit واحد مؤرَّخ بذلك اليوم. **لا يحتوي على أي نص قانوني**: يذكر كل ملف عنوان النص ونوعه ورقمه وسنته، وعدد الجريدة الذي يدرجه وتاريخ ذلك العدد، وسجل النص في المقتفي. يسرد `git log` ما نشرته الجريدة في كل يوم صدور؛ واختيار تاريخ ما يعطي الفهرس كما كان في ذلك اليوم.
 
-**What is in it now:** catalogue entries for 3,367 texts listed in the 241 ordinary and 34 special issues of the Gazette, from issue 1 (20 November 1994) to issue 241 (30 August 2026), in 273 dated commits; no law text, case law or treaty yet. [`catalogue/README.md`](catalogue/README.md) lists every entry; [`REPRODUCE.md`](REPRODUCE.md) says how they were made.
+جزء من [lexifina/global-law](https://github.com/lexifina/global-law)، وهو سجل git واحد لقوانين جميع الدول: هذا هو القانون الوطني الفلسطيني، الذي يقرؤه global-law في `palestine/national/acts/`.
 
-Each entry is `catalogue/g<issue>-<item>.md` (`catalogue/g039-001.md` is قانون العمل رقم (7) لسنة 2000, the Labour Law, listed in issue 39 of 25 November 2001); entries from special issues start `gsp`.
+**ما يحتويه الآن:** مداخل فهرسية لـ 3,367 نصًا مدرجة في 241 عددًا عاديًا و34 عددًا ممتازًا من الجريدة، من العدد 1 (20 نوفمبر 1994) إلى العدد 241 (30 أغسطس 2026)، في 273 commit مؤرَّخًا؛ ولا يوجد فيه بعدُ أي نص قانوني أو حكم قضائي أو معاهدة. يسرد [`catalogue/README.md`](catalogue/README.md) جميع المداخل؛ ويبيّن [`REPRODUCE.md`](REPRODUCE.md) كيف أُعدّت.
 
-Titles are in Arabic, as Al-Muqtafi's index prints them; the field names are in English. An English translation is not part of this record.
+كل مدخل هو `catalogue/g<issue>-<item>.md` (فالملف `catalogue/g039-001.md` هو قانون العمل رقم (7) لسنة 2000، المدرج في العدد 39 الصادر في 25 نوفمبر 2001)؛ وتبدأ مداخل الأعداد الممتازة بـ `gsp`.
 
-## Questions as git commands
+العناوين باللغة العربية كما يطبعها فهرس المقتفي؛ وأسماء الحقول باللغة الإنجليزية. ولا تشكّل الترجمة الإنجليزية جزءًا من هذا السجل.
 
-| Question | Command |
+## الأسئلة بصيغة أوامر git
+
+| السؤال | الأمر |
 | --- | --- |
-| The Labour Law's entry, and the Gazette day that added it | `git log -p -- catalogue/g039-001.md` |
-| Which Gazette day wrote each line of the entry? | `git blame catalogue/g039-001.md` |
-| Every Gazette day in the catalogue, with its date | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- catalogue ":^catalogue/README.md"` |
-| The catalogue as it stood on 1 January 2005 | `python tools/on.py 2005-01-01 catalogue` |
+| مدخل قانون العمل، ويوم صدور الجريدة الذي أضافه | `git log -p -- catalogue/g039-001.md` |
+| أي يوم من أيام صدور الجريدة كتب كل سطر من المدخل؟ | `git blame catalogue/g039-001.md` |
+| كل أيام صدور الجريدة في الفهرس، مع تاريخ كل منها | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- catalogue ":^catalogue/README.md"` |
+| الفهرس كما كان في 1 يناير 2005 | `python tools/on.py 2005-01-01 catalogue` |
 
-**Outside git**, we also host this record publicly, for free:
+**خارج git**، نستضيف هذا السجل أيضًا للعموم مجانًا:
 
-- **[Ask Claude about Palestinian law](https://global-law.lexifina.com/v1/try_claude?country=palestine)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=palestine)**: the same question in ChatGPT.
-- **[Search the Palestinian catalogue on our site](https://lexifina.com/law?country=palestine&q=%D8%A7%D9%84%D8%B9%D9%85%D9%84)**: a search for "العمل" (labour) in its catalogue of titles, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%D8%A7%D9%84%D8%B9%D9%85%D9%84&jurisdiction=palestine)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[اسأل Claude عن القانون الفلسطيني](https://global-law.lexifina.com/v1/try_claude?country=palestine)**: يفتح Claude مع سؤال أول جاهز.
+- **[اسأل ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=palestine)**: السؤال نفسه في ChatGPT.
+- **[ابحث في الفهرس الفلسطيني على موقعنا](https://lexifina.com/law?country=palestine&q=%D8%A7%D9%84%D8%B9%D9%85%D9%84)**: بحث عن "العمل" في فهرس العناوين، دون الحاجة إلى حساب.
+- **[واجهة REST API للمطورين](https://global-law.lexifina.com/v1/search_law?query=%D8%A7%D9%84%D8%B9%D9%85%D9%84&jurisdiction=palestine)**: البحث نفسه بصيغة JSON، دون مفتاح. انظر [التوثيق هنا](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Arabic or in English.
+يقرأ كلا المساعدَين السجلَّ عبر موصل Global law المجاني (MCP، `https://global-law.lexifina.com/mcp`)؛ وفي المرة الأولى تعطيك المحادثة الرابط الذي يضيفه. اسأل بالعربية أو بالإنجليزية.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**استضِفه بنفسك بسهولة.** كل ما يلزم هو git وPython، والأدوات تعمل على جهازك:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -37,50 +43,52 @@ python3 tools/countries.py add palestine/national/acts
 python3 tools/law.py show 2026-01-01 palestine/national/acts/catalogue/g039-001.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+عند فتح النسخة المستنسخة في Claude Code أو Cursor أو VS Code أو Codex، تشغّل أيضًا خادم MCP محليًا بالأدوات نفسها ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## التواريخ
 
-Each commit is dated at noon, Asia/Hebron, on the date of the Gazette issue that lists its entries, and carries it in its `In-force:` trailer:
+يحمل كل commit تاريخ الظهر، بتوقيت Asia/Hebron، من يوم صدور عدد الجريدة الذي يدرج مداخله، ويذكر هذا التاريخ في حقله الختامي (trailer) `In-force:`:
 
-- the date is read from each issue's label (the index's own date is wrong or missing for some special issues); issues of the same date share one commit, and a text listed in several issues appears once, at the earliest;
-- it is not the day the text took effect: a law takes effect 30 days after publication unless it says otherwise (Amended Basic Law 2003, Art. 116), a rule the catalogue does not apply.
+- يُقرأ التاريخ من التسمية التي يحملها كل عدد (فتاريخ الفهرس نفسه خاطئ أو مفقود في بعض الأعداد الممتازة)؛ والأعداد التي تحمل التاريخ نفسه تشترك في commit واحد، والنص المدرج في عدة أعداد يظهر مرة واحدة، في أقدمها؛
+- وهو ليس اليوم الذي نفذ فيه النص: فالقانون يُعمل به بعد ثلاثين يومًا من تاريخ نشره ما لم ينص على خلاف ذلك (القانون الأساسي المعدل لسنة 2003، المادة 116)، وهي قاعدة لا يطبقها الفهرس.
 
-No commit is credited to a law: each is credited to the index, as `Catalogue entries of <date>` (`Kind: publisher`). The committer is Lexifina.
+لا يُنسب أي commit إلى قانون: بل يُنسب كل منها إلى الفهرس، بعنوان `Catalogue entries of <date>` (`Kind: publisher`). وصاحب الـ commit (committer) هو Lexifina.
 
-## How it is checked
+## طريقة التحقق
 
-- `tools/catalogue.py` writes the corpus from Al-Muqtafi's issue index, and `tools/build.py` writes the history from it; the same corpus, whose hash is in `data/corpus.sha256`, gives the same commit hashes.
-- `tools/check_repo.py` reads every version back from git on its day and on the day before and compares it with the corpus; it also checks that every commit's trailers parse, that `main` has no merge commits and that no commit is dated in the future.
-- [`REPRODUCE.md`](REPRODUCE.md) records that the checks were not yet run for this build and that no second build has been compared.
+- يكتب `tools/catalogue.py` المجموعة من فهرس أعداد المقتفي، ويكتب `tools/build.py` السجل منها؛ والمجموعة نفسها، التي ترد قيمة تجزئتها في `data/corpus.sha256`، تعطي قيم تجزئة الـ commits نفسها.
+- يعيد `tools/check_repo.py` قراءة كل نسخة من git في يومها وفي اليوم السابق له ويقارنها بالمجموعة؛ ويتحقق أيضًا من أن الحقول الختامية لكل commit قابلة للتحليل، وأن `main` لا يحتوي على commits دمج (merge)، وأنه لا يوجد commit مؤرَّخ في المستقبل.
+- يسجّل [`REPRODUCE.md`](REPRODUCE.md) أن عمليات التحقق لم تُشغَّل بعد لهذا البناء، وأنه لم تُقارَن به أي عملية بناء ثانية.
 
-## What it does not show
+## ما لا يتضمنه
 
-- **Law text.** Al-Muqtafi states that its material is copyrighted, and no Palestinian provision exempting laws was found (the 1911 Copyright Act, as applied by the 1924 Ordinance, appears to remain in force), so only facts are copied. An earlier build of the Basic Law's text (2002, 2003 and 2005) is not on `main` for the same reason.
-- **Amendments and in-force days.** Each entry is added once and never changed; an amending text is an entry of its own.
-- **Full titles that name a person.** 120 entries (appointments, transfers) keep only the type and number.
-- **Law from before 1994.** The laws in force before 5 June 1967 were kept in force by Decision No. 1 of 1994 (`catalogue/g001-002.md`); they were published before this Gazette and are not listed.
-- **Case law, treaties and bills.** None.
+- **نصوص القوانين.** يذكر المقتفي أن مواده محمية بحقوق التأليف، ولم يُعثر على نص فلسطيني يستثني القوانين (ويبدو أن قانون حقوق الطبع والتأليف لسنة 1911، كما طُبّق بموجب مرسوم سنة 1924، لا يزال نافذًا)، لذلك لا تُنسخ إلا الوقائع. وللسبب نفسه، لا يوجد على `main` بناء سابق لنص القانون الأساسي (2002 و2003 و2005).
+- **التعديلات وأيام النفاذ.** يُضاف كل مدخل مرة واحدة ولا يُغيَّر أبدًا؛ والنص المعدِّل مدخل قائم بذاته.
+- **العناوين الكاملة التي تذكر اسم شخص.** 120 مدخلًا (تعيينات، تنقلات) لا تحتفظ إلا بالنوع والرقم.
+- **القانون السابق لعام 1994.** أبقى القرار رقم (1) لسنة 1994 (`catalogue/g001-002.md`) القوانين التي كانت سارية قبل 5 يونيو 1967 نافذة؛ وقد نُشرت قبل هذه الجريدة فليست مدرجة فيها.
+- **أحكام القضاء والمعاهدات ومشاريع القوانين.** لا شيء منها.
 
-## Sources
+## المصادر
 
-| Source | Kind | Past versions | Notes |
+| المصدر | النوع | النسخ السابقة | ملاحظات |
 | --- | --- | --- | --- |
-| [Al-Muqtafi](http://muqtafi.birzeit.edu/pg/) (Institute of Law, Birzeit University) | Issue index of Al-Waqa'i' al-Filastiniyya, the Official Gazette | no: facts only, one entry per text | Title, type, number, year, issue and date of each text; retrieved 29 October 2026 |
+| [المقتفي](http://muqtafi.birzeit.edu/pg/) (معهد الحقوق، جامعة بيرزيت) | فهرس أعداد الوقائع الفلسطينية، الجريدة الرسمية | لا: وقائع فقط، مدخل واحد لكل نص | عنوان كل نص ونوعه ورقمه وسنته وعدده وتاريخه؛ استُرجعت في 29 أكتوبر 2026 |
 
-## Licence
+## الترخيص
 
-See [`LICENSE`](LICENSE). Only facts are copied: no text of any law and no descriptive text of the source. Birzeit University does not endorse this repository. Lexifina's history, commit messages and tools are CC0 1.0.
+انظر [`LICENSE`](LICENSE). لا تُنسخ إلا الوقائع: لا نص أي قانون ولا أي نص وصفي من المصدر. ولا تتبنّى جامعة بيرزيت هذا المستودع. أما السجل الذي أعدّته Lexifina ورسائل الـ commits والأدوات فخاضعة لـ CC0 1.0.
 
-No AI model wrote or edited any catalogue entry; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+لم يكتب أي نموذج ذكاء اصطناعي أي مدخل في الفهرس ولم يحرّره؛ أما البرامج النصية فقد كتبها نموذج ذكاء اصطناعي (انظر [`REPRODUCE.md`](REPRODUCE.md)).
 
-## More
+هذا النص ترجمة للنسخة الإنجليزية ([README.en.md](README.en.md))؛ وعند الاختلاف تسود النسخة الإنجليزية.
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
+## المزيد
 
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+من مستودع [lexifina/global-law](https://github.com/lexifina/global-law) (صفحات باللغة الإنجليزية):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): جميع الميزات، وما يجب أن تدعمه كل مجموعة (`git blame`، `law.py`، أدوات MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): أسئلة وأجوبة · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): اقتراح تغييرات · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): خادم MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): طريقة البناء · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): مدى حداثة كل مجموعة · [المراقبة](https://github.com/lexifina/global-law/tree/main/monitoring): هل تعمل التحديثات · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): كيف يُراقَب كل مصدر رسمي لرصد التغييرات
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): سرعة الأدوات كما قيست
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): رسوم بيانية وروابط عبر قوانين العالم
+- [الثغرات](https://github.com/lexifina/global-law/tree/main/vulnerabilities): أخطاء في التشريعات كما نُشرت

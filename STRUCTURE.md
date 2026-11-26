@@ -5,7 +5,7 @@ No folder holds more than 1,000 entries.
 
 | Folder | What | One file is |
 | --- | --- | --- |
-| `الفهرس/` | Catalogue of the texts listed in al-Waqa'i' al-Filastiniyya, 1994-2026 (facts only, no text) | one gazette item (`g039-001.md`) |
+| `الفهرس/<السنة>/` | Catalogue of the texts listed in al-Waqa'i' al-Filastiniyya, 1994-2026 (facts only, no text) | one gazette item (`g039-001.md`) |
 | `التشريعات/<السنة>/` | Laws, decree-laws, decisions, regulations and instructions as published in the Gazette | one instrument (`<النوع>-<الرقم>.md`, e.g. `قرار-بقانون-15.md`) |
 | `الوقائع-الفلسطينية/<السنة>/` | Gazette issues, full text | one issue (`العدد-<n>.md`, `عدد-ممتاز-<n>.md`) |
 | `الأحكام/<المحكمة>/<السنة>/<الشهر>/<اليوم>/` | Judgments, by the day they were given | one judgment (`<نوع-الدعوى>-<الرقم>-<السنة>.md`) |
@@ -31,4 +31,4 @@ No folder holds more than 1,000 entries.
   official texts.
 - The catalogue: Al-Muqtafi (Birzeit University), facts only.
 
-`catalogue/` was renamed `الفهرس/` on 2026-11-26 (a rename only; no text changed).
+`catalogue/` was renamed `الفهرس/` on 2026-11-26 (a rename only; no text changed), and its entries moved into one folder per Gazette year.

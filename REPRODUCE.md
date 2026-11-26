@@ -14,7 +14,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
-| `catalogue` | Catalogue of texts published in Al-Waqa'i' al-Filastiniyya (metadata only) | 273 | 1994-11-20 to 2026-08-30 |
+| `الفهرس` | Catalogue of texts published in Al-Waqa'i' al-Filastiniyya (metadata only) | 273 | 1994-11-20 to 2026-08-30 |
 
 The build made 273 commits:
 

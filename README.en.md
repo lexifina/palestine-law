@@ -11,9 +11,9 @@ The law of Palestine as a git history, for now as a catalogue: one file per text
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Palestine's national law, which global-law reads at `palestine/national/acts/`.
 
-**What is in it now:** catalogue entries for 3,367 texts listed in the 241 ordinary and 34 special issues of the Gazette, from issue 1 (20 November 1994) to issue 241 (30 August 2026), in 273 dated commits; no law text, case law or treaty yet. [`catalogue/README.md`](catalogue/README.md) lists every entry; [`REPRODUCE.md`](REPRODUCE.md) says how they were made.
+**What is in it now:** catalogue entries for 3,367 texts listed in the 241 ordinary and 34 special issues of the Gazette, from issue 1 (20 November 1994) to issue 241 (30 August 2026), in 273 dated commits; no law text, case law or treaty yet. [`الفهرس/README.md`](الفهرس/README.md) lists every entry; [`REPRODUCE.md`](REPRODUCE.md) says how they were made.
 
-Each entry is `catalogue/g<issue>-<item>.md` (`catalogue/g039-001.md` is قانون العمل رقم (7) لسنة 2000, the Labour Law, listed in issue 39 of 25 November 2001); entries from special issues start `gsp`.
+Each entry is `الفهرس/g<issue>-<item>.md` (`الفهرس/g039-001.md` is قانون العمل رقم (7) لسنة 2000, the Labour Law, listed in issue 39 of 25 November 2001); entries from special issues start `gsp`.
 
 Titles are in Arabic, as Al-Muqtafi's index prints them; the field names are in English. An English translation is not part of this record.
 
@@ -21,10 +21,10 @@ Titles are in Arabic, as Al-Muqtafi's index prints them; the field names are in 
 
 | Question | Command |
 | --- | --- |
-| The Labour Law's entry, and the Gazette day that added it | `git log -p -- catalogue/g039-001.md` |
-| Which Gazette day wrote each line of the entry? | `git blame catalogue/g039-001.md` |
-| Every Gazette day in the catalogue, with its date | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- catalogue ":^catalogue/README.md"` |
-| The catalogue as it stood on 1 January 2005 | `python tools/on.py 2005-01-01 catalogue` |
+| The Labour Law's entry, and the Gazette day that added it | `git log -p -- الفهرس/g039-001.md` |
+| Which Gazette day wrote each line of the entry? | `git blame الفهرس/g039-001.md` |
+| Every Gazette day in the catalogue, with its date | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- الفهرس ":^الفهرس/README.md"` |
+| The catalogue as it stood on 1 January 2005 | `python tools/on.py 2005-01-01 الفهرس` |
 
 **Outside git**, we also host this record publicly, for free:
 
@@ -66,7 +66,7 @@ No commit is credited to a law: each is credited to the index, as `Catalogue ent
 - **Law text.** Al-Muqtafi states that its material is copyrighted, and no Palestinian provision exempting laws was found (the 1911 Copyright Act, as applied by the 1924 Ordinance, appears to remain in force), so only facts are copied. An earlier build of the Basic Law's text (2002, 2003 and 2005) is not on `main` for the same reason.
 - **Amendments and in-force days.** Each entry is added once and never changed; an amending text is an entry of its own.
 - **Full titles that name a person.** 120 entries (appointments, transfers) keep only the type and number.
-- **Law from before 1994.** The laws in force before 5 June 1967 were kept in force by Decision No. 1 of 1994 (`catalogue/g001-002.md`); they were published before this Gazette and are not listed.
+- **Law from before 1994.** The laws in force before 5 June 1967 were kept in force by Decision No. 1 of 1994 (`الفهرس/g001-002.md`); they were published before this Gazette and are not listed.
 - **Case law, treaties and bills.** None.
 
 ## Sources

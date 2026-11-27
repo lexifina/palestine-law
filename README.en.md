@@ -7,15 +7,15 @@
 <img alt="Palestinian law in this repository: what it holds, changes by the year they took effect, completeness against the official sources, and the correctness of what is held" src="data/effort-light.svg" width="880">
 </picture>
 
-The law of Palestine as a git history, for now as a catalogue: one file per text listed in the Official Gazette, Al-Waqa'i' al-Filastiniyya, and one commit per Gazette day, dated that day. **It holds no law text**: each file gives a text's title, type, number and year, the Gazette issue that lists it and that issue's date, and the text's record at Al-Muqtafi. `git log` lists what each Gazette day published; picking a date gives the catalogue as it stood that day.
+The law of Palestine as a git history: one file per instrument, Gazette issue and judgment, each committed on the day it took effect (an issue on its publication day, a judgment on the day it was given). `git log` lists what took effect each day; picking a date gives the record as it stood that day.
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Palestine's national law, which global-law reads at `palestine/national/acts/`.
 
-**What is in it now:** catalogue entries for 3,367 texts listed in the 241 ordinary and 34 special issues of the Gazette, from issue 1 (20 November 1994) to issue 241 (30 August 2026), in 273 dated commits; no law text, case law or treaty yet. [`الفهرس/README.md`](الفهرس/README.md) lists every entry; [`REPRODUCE.md`](REPRODUCE.md) says how they were made.
+**What is in it now:** 1,032 instruments as published in al-Waqa'i' al-Filastiniyya, 1959 to 2026 (42 laws, 307 decree-laws, and decisions, regulations and instructions), 195 full Gazette issues, the Gazette catalogue (3,367 entries, 1994-2026), and 10,216 judgments of eight courts, among them the Court of Cassation (6,519) and the Supreme Constitutional Court (105). The Amended Basic Law and the main codes are not here yet. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
 Each entry is `الفهرس/<year>/g<issue>-<item>.md` (`الفهرس/2001/g039-001.md` is قانون العمل رقم (7) لسنة 2000, the Labour Law, listed in issue 39 of 25 November 2001); entries from special issues start `gsp`.
 
-Titles are in Arabic, as Al-Muqtafi's index prints them; the field names are in English. An English translation is not part of this record.
+The texts are in Arabic, as the Gazette and the courts published them (through Maqam, An-Najah National University); catalogue titles are as Al-Muqtafi's index prints them, with the field names in English. An English translation is not part of this record.
 
 ## Questions as git commands
 
